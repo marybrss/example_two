@@ -1,0 +1,18 @@
+#prints the original string
+s1 = "hello world"
+print(s1)
+
+#iterates through the array index of a string adding each character to an empty string
+s2 = ""
+for i in range(len(s1)-1, -1, -1):
+  s2 = s2+s1[i]
+print(s2)
+
+#iterating through each character of a string and adding it to an empty string
+s3 = ""
+for c in s1:
+  s3 = s3 +c
+print(s3)
+
+#a short cut to do it in one line!
+print(s1[::-1])
